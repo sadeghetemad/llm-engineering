@@ -8,7 +8,7 @@ A hands-on, educational repository for becoming an LLM engineer: working with LL
 .
 ├── notebooks/
 │   ├── langchain/       # LangChain fundamentals (start here)
-│   ├── rag/             # Retrieval-Augmented Generation (planned)
+│   ├── rag/             # Retrieval-Augmented Generation
 │   └── fine_tuning/     # Model fine-tuning (planned)
 ├── src/llm_engineering/ # Reusable helpers shared by the notebooks
 ├── tests/
@@ -25,6 +25,7 @@ A hands-on, educational repository for becoming an LLM engineer: working with LL
 | [03_chains_and_routing](notebooks/langchain/03_chains_and_routing.ipynb) | LCEL chains, `RunnableLambda`, routing |
 | [04_tools](notebooks/langchain/04_tools.ipynb) | Defining tools, tool binding, executing tool calls |
 | [05_documents_and_vector_stores](notebooks/langchain/05_documents_and_vector_stores.ipynb) | Documents, embeddings, vector stores |
+| [rag/01_tfidf_indexing_and_retrieval](notebooks/rag/01_tfidf_indexing_and_retrieval.ipynb) | RAG indexing and retrieval from scratch with TF-IDF and nearest neighbors |
 
 ## Getting started
 
